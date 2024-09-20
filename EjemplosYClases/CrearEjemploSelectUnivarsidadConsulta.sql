@@ -1,0 +1,1 @@
+select nombre, profesor.nombre_dept, edificio from profesor, departamento where profesor.nombre_dept = departamento.nombre_dept;
